@@ -1,60 +1,76 @@
 .contact-section {
-    padding: 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .contact-section h2 {
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-  }
-  
-  .contact-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .contact-section input,
-  .contact-section textarea {
-    width: 100%;
-    max-width: 400px;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact-section button {
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contact-section button:hover {
-    background-color: #0056b3;
-  }
-  
-  .socials {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .socials a {
-    font-size: 1.5rem;
-    color: #555;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .socials a:hover {
-    color: #007bff;
-  }
-  
+  padding: 4rem 2rem; /* Increased padding for more space */
+  background-color: #f1f5f9; /* Softer background for better readability */
+  text-align: center;
+  border-radius: 10px; /* Added rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for a subtle pop */
+}
+
+.contact-section h2 {
+  margin-bottom: 2rem; /* Adjusted margin for better spacing */
+  font-size: 2.5rem; /* Slightly larger font for emphasis */
+  font-weight: bold;
+  color: #333; /* Darker text color for contrast */
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem; /* Increased gap for better spacing between inputs */
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  max-width: 450px; /* Slightly larger width for input fields */
+  padding: 0.75rem; /* Increased padding for better usability */
+  font-size: 1.1rem; /* Larger font size for readability */
+  border: 1px solid #ddd; /* Softer border color */
+  border-radius: 8px; /* Rounded corners for inputs */
+  background-color: #fff; /* White background for clarity */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth interaction effects */
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: #007bff; /* Blue border when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+  outline: none; /* Removed default outline */
+}
+
+.contact-section button {
+  padding: 0.8rem 2rem; /* Adjusted padding for a better button size */
+  font-size: 1.2rem; /* Slightly larger font size */
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50px; /* Pill-shaped button */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.contact-section button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.socials {
+  margin-top: 3rem; /* Increased spacing above socials */
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Increased gap for better spacing */
+}
+
+.socials a {
+  font-size: 2rem; /* Larger icon size */
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease; /* Added smooth transition */
+}
+
+.socials a:hover {
+  color: #007bff;
+  transform: scale(1.2); /* Slight zoom effect */
+}

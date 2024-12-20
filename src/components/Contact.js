@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section  id="contact" className="contact-section">
       <h2>Contact</h2>
       <form action="https://formspree.io/f/xrbgnrgv" method="POST">
         <label htmlFor="name">Name:</label>

@@ -1,65 +1,98 @@
-/* Resume.css */
-
 #resume {
-    padding: 20px;
-    background-color: #f4f4f9;
-    border-radius: 8px;
-    max-width: 600px;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  #resume h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  #resume-request-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  #resume-request-form label {
-    font-size: 14px;
-    font-weight: bold;
-    color: #555;
-  }
-  
-  #resume-request-form input,
-  #resume-request-form textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  #resume-request-form textarea {
-    resize: none;
-  }
-  
-  #resume-request-form button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  #resume-request-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  #resume p {
-    text-align: center;
-    color: #444;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
+  padding: 4rem 2rem; /* Increased padding for a more spacious layout */
+  background-color: #f4f4f9;
+  border-radius: 10px; /* Softer rounded corners */
+  max-width: 800px; /* Increased width for better presentation */
+  margin: 0 auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  text-align: center; /* Center alignment for content */
+}
+
+#resume h2 {
+  text-align: center;
+  color: #222; /* Slightly darker color for improved contrast */
+  font-size: 2.5rem; /* Larger font size for emphasis */
+  font-weight: bold;
+  margin-bottom: 2rem; /* Added spacing below the heading */
+}
+
+#resume-request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Increased gap for better spacing */
+  align-items: center; /* Center align the form elements */
+}
+
+#resume-request-form label {
+  font-size: 16px; /* Increased font size for readability */
+  font-weight: bold;
+  color: #555; /* Softer color tone */
+  margin-bottom: 0.5rem;
+  align-self: flex-start; /* Align labels to the left */
+}
+
+#resume-request-form input,
+#resume-request-form textarea {
+  width: 100%;
+  max-width: 500px; /* Wider inputs for better usability */
+  padding: 12px 15px; /* Added more padding for comfort */
+  font-size: 16px;
+  border: 1px solid #ccc; /* Softer border color */
+  border-radius: 8px; /* Rounded corners for inputs */
+  box-sizing: border-box;
+  background-color: #fff; /* Ensures a clean input background */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#resume-request-form input:focus,
+#resume-request-form textarea:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+  outline: none;
+}
+
+#resume-request-form textarea {
+  resize: vertical; /* Allow resizing only vertically */
+  min-height: 120px; /* Ensures a consistent size */
+}
+
+#resume-request-form button {
+  padding: 12px 30px; /* Larger padding for a prominent button */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px; /* Pill-shaped button */
+  font-size: 18px; /* Slightly larger font size */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#resume-request-form button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+#resume p {
+  text-align: center;
+  color: #333; /* Slightly darker text color */
+  font-size: 18px; /* Increased font size for better readability */
+  margin-top: 30px; /* Added more space above the paragraph */
+  line-height: 1.6; /* Improved line spacing */
+}
+
+#resume a button {
+  background-color: #28a745; /* Green color for the download button */
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#resume a button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
