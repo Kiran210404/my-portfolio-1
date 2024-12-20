@@ -1,0 +1,50 @@
+section#about {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+section#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+section#about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 10px 0;
+  color: #555;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#about ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+section#about ul li::before {
+  content: '✔';
+  color: #4CAF50;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+section#about li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+section#about h3 {
+  font-size: 2rem;
+  margin-top: 40px;
+  color: #333;
+}
