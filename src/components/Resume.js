@@ -45,7 +45,7 @@ const Resume = () => {
       ) : (
         <div>
           <p>Thank you for your request! You'll get the access to the resume shortly.</p>
-          <a href="/path-to-your-resume.pdf" download>
+          <a href="KIRAN MANE.pdf" download>
             <button>Download Resume</button>
           </a>
         </div>
